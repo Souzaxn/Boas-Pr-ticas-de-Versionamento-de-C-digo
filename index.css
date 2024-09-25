@@ -1,0 +1,97 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+.app-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://i.pinimg.com/originals/3f/5f/1d/3f5f1dbcc6cf70317a8b8cb013807137.jpg");
+  background-size: cover;
+  filter: blur(1px); 
+  z-index: -1;
+  border-radius: 20px;
+  
+}
+
+.app-container {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #ffffff; /* Fundo branco */
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+  z-index: 1;
+  
+}
+
+h1 {
+  color: #ffffff; /* Vermelho vibrante para o título principal */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #ff4800; /* Bordas em vermelho */
+  border-radius: 5px;
+  background-color: #f4e6ff; /* Fundo suave em tom de vermelho claro */
+}
+
+h2 {
+  color: #ffffff; /* Laranja vibrante para os dias da semana */
+  margin-bottom: 10px;
+}
+
+.periodo-container {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ff0000; /* Bordas em vermelho */
+  border-radius: 5px;
+  background-color: #ff0000; /* Fundo suave em tom de vermelho */
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  color: #ec0000; /* Vermelho escuro para os rótulos */
+}
+
+input[type="text"],
+select {
+  width: calc(100% - 110px);
+  padding: 8px;
+  border: 1px solid #d94f4f; /* Bordas do campo de texto em vermelho */
+  border-radius: 5px;
+  background-color: #ebe1ff; /* Fundo suave no campo de entrada */
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #ff0000; /* Realce da borda ao focar */
+  outline: none;
+}
+
+button {
+  background-color: #ff0000; /* Vermelho */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff0000; /* Vermelho escuro */
+}
