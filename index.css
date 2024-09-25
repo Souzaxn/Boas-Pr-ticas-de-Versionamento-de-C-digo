@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  background-color: #ff0000;
+  background-color: #01002c;
 }
 
 .app-container::before {
@@ -29,7 +29,7 @@ body {
   padding: 20px;
   border-radius: 50%;
   background-color: #ffffff; /* Fundo branco */
-  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1;
   
 }
@@ -43,7 +43,7 @@ h1 {
 .input-container {
   margin-bottom: 20px;
   padding: 10px;
-  border: 2px solid #ff4800; /* Bordas em vermelho */
+  border: 2px solid #3a05b6; /* Bordas em vermelho */
   border-radius: 5px;
   background-color: #f4e6ff; /* Fundo suave em tom de vermelho claro */
 }
@@ -56,34 +56,34 @@ h2 {
 .periodo-container {
   margin-bottom: 10px;
   padding: 5px;
-  border: 1px solid #ff0000; /* Bordas em vermelho */
+  border: 1px solid #834dff; /* Bordas em vermelho */
   border-radius: 5px;
-  background-color: #ff0000; /* Fundo suave em tom de vermelho */
+  background-color: #a269fd; /* Fundo suave em tom de vermelho */
 }
 
 label {
   display: inline-block;
   width: 100px;
-  color: #ec0000; /* Vermelho escuro para os rótulos */
+  color: #3f00ec; /* Vermelho escuro para os rótulos */
 }
 
 input[type="text"],
 select {
   width: calc(100% - 110px);
   padding: 8px;
-  border: 1px solid #d94f4f; /* Bordas do campo de texto em vermelho */
+  border: 1px solid #6d4fd9; /* Bordas do campo de texto em vermelho */
   border-radius: 5px;
   background-color: #ebe1ff; /* Fundo suave no campo de entrada */
 }
 
 input[type="text"]:focus,
 select:focus {
-  border-color: #ff0000; /* Realce da borda ao focar */
+  border-color: #bb47ff; /* Realce da borda ao focar */
   outline: none;
 }
 
 button {
-  background-color: #ff0000; /* Vermelho */
+  background-color: #6f00ff; /* Vermelho */
   color: white;
   padding: 10px;
   border: none;
@@ -93,5 +93,5 @@ button {
 }
 
 button:hover {
-  background-color: #ff0000; /* Vermelho escuro */
+  background-color: #6b14dc; /* Vermelho escuro */
 }
